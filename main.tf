@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "website_bucket" {
-  bucket = "my-terraform-static-site-12345"  # MUST BE UNIQUE
+  bucket = "sanskriti-terraform-static-site-12345"  # MUST BE UNIQUE
 }
 
 resource "aws_s3_bucket_website_configuration" "website" {
